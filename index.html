@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sohit Yadav | Portfolio</title>
+  <meta name="description" content="Portfolio of Sohit Yadav – Final-year B.Tech CSE student, aspiring Software Engineer. Skills in C/C++, Python, SQL, JavaScript, HTML, CSS; experience with Django and ML." />
+  <!-- Fonts + Tailwind (for quick, clean defaults) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Your custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
+  <!-- Header / Hero -->
+  <header class="section pt-10 pb-8">
+    <div class="card p-6 sm:p-8">
+      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+        <div>
+          <h1 class="text-3xl sm:text-4xl font-extrabold">Sohit Yadav</h1>
+          <p class="mt-2 text-lg text-zinc-600 dark:text-zinc-300">
+            Final-year B.Tech (CSE) · Aspiring Software Engineer · Frontend & Backend basics
+          </p>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <a class="btn" href="mailto:0173cs221135@gmail.com">📧 <span>0173cs221135@gmail.com</span></a>
+            <a class="btn" href="tel:+919770662713">📞 <span>+91 9770662713</span></a>
+            <a class="btn" href="https://www.linkedin.com/in/sohit-yadav-08981428b" target="_blank" rel="noopener">🔗 <span>LinkedIn</span></a>
+            <a class="btn" href="https://github.com/sohitydv/sohit" target="_blank" rel="noopener">🐙 <span>GitHub</span></a>
+            <a class="btn" href="https://www.hackerrank.com/profile/0173cs221135" target="_blank" rel="noopener">🏆 <span>HackerRank</span></a>
+          </div>
+        </div>
+
+        <nav class="w-full sm:w-auto">
+          <ul class="flex flex-wrap gap-3 text-sm">
+            <li><a class="btn nav-link" href="#about">About</a></li>
+            <li><a class="btn nav-link" href="#experience">Experience</a></li>
+            <li><a class="btn nav-link" href="#projects">Projects</a></li>
+            <li><a class="btn nav-link" href="#skills">Skills</a></li>
+            <li><a class="btn nav-link" href="#education">Education</a></li>
+            <li><a class="btn nav-link" href="#certifications">Certifications</a></li>
+            <li><a class="btn nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section py-6">
+    <div class="card p-6 sm:p-8">
+      <h2 class="heading">About Me</h2>
+      <p class="mt-3 text-zinc-700 dark:text-zinc-300">
+        Final-year B.Tech student passionate about coding, seeking an entry-level Software Engineer role to apply academic
+        knowledge and build scalable solutions. Committed to continuous learning and contributing to organizational success
+        through innovation and problem-solving.
+      </p>
+      <div class="mt-4 flex flex-wrap gap-2">
+        <span class="chip">Looking for: SDE-1 / Frontend / Full-Stack Intern</span>
+        <span class="chip">Location: India (Open to Remote)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section py-6">
+    <div class="card p-6 sm:p-8">
+      <h2 class="heading">Experience</h2>
+      <div class="mt-4 space-y-6">
+        <article class="border rounded-xl p-4">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+            <h3 class="text-xl font-semibold">Frontend Developer Intern · Wyreflow Technology, Bhopal</h3>
+            <span class="subtle">Jan 2025 – Apr 2025</span>
+          </div>
+          <ul class="mt-3 list-disc ms-5 space-y-2 text-zinc-700 dark:text-zinc-300">
+            <li>Developed and optimized responsive UIs using HTML, CSS, JavaScript, and modern frontend frameworks.</li>
+            <li>Collaborated with the technical team to build a scalable web application aligned with project goals.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section py-6">
+    <div class="card p-6 sm:p-8">
+      <h2 class="heading">Projects</h2>
+      <div class="mt-4 grid sm:grid-cols-2 gap-6">
+        <article class="border rounded-xl p-4">
+          <div class="flex items-start justify-between gap-3">
+            <h3 class="text-lg font-semibold">Real-Time House Price Prediction Website</h3>
+            <a class="link text-sm" href="https://github.com/Sahil-113/House-Price-Prediction" target="_blank" rel="noopener">Repo ↗</a>
+          </div>
+          <p class="mt-2 subtle">Team project · Role: Model Building · Tech: Python, ML, Django, HTML, JS</p>
+          <ul class="mt-3 list-disc ms-5 space-y-2 text-zinc-700 dark:text-zinc-300">
+            <li>Built and integrated a machine learning model with Django to generate real-time price predictions.</li>
+            <li>Implemented a responsive web interface for seamless buyer-seller interaction and better UX.</li>
+          </ul>
+        </article>
+
+        <article class="border rounded-xl p-4">
+          <div class="flex items-start justify-between gap-3">
+            <h3 class="text-lg font-semibold">Personal Portfolio (This Site)</h3>
+            <a class="link text-sm" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'})">Top ↥</a>
+          </div>
+          <p class="mt-2 subtle">Static site · Built with Tailwind CSS + custom CSS</p>
+          <ul class="mt-3 list-disc ms-5 space-y-2 text-zinc-700 dark:text-zinc-300">
+            <li>Single-file, lightweight, and ready to deploy on GitHub Pages.</li>
+            <li>Accessible, mobile-friendly components with clear CTAs for hiring managers.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section py-6">
+    <div class="card p-6 sm:p-8">
+      <h2 class="heading">Technical Skills</h2>
+      <div class="mt-4 grid sm:grid-cols-2 gap-4">
+        <div>
+          <h3 class="font-semibold">Programming</h3>
+          <div class="mt-2 flex flex-wrap gap-2">
+            <span class="chip">C/C++</span><span class="chip">Python</span><span class="chip">Java (basics)</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="font-semibold">Databases</h3>
+          <div class="mt-2 flex flex-wrap gap-2">
+            <span class="chip">SQL</span><span class="chip">MySQL</span><span class="chip">RDBMS</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="font-semibold">CS Fundamentals</h3>
+          <div class="mt-2 flex flex-wrap gap-2">
+            <span class="chip">OOP</span><span class="chip">DBMS</span><span class="chip">DSA</span><span class="chip">Operating Systems</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="font-semibold">Frontend & Tools</h3>
+          <div class="mt-2 flex flex-wrap gap-2">
+            <span class="chip">JavaScript</span><span class="chip">HTML</span><span class="chip">CSS</span>
+            <span class="chip">GitHub</span><span class="chip">VS Code</span><span class="chip">Jupyter Notebook</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section py-6">
+    <div class="card p-6 sm:p-8">
+      <h2 class="heading">Education</h2>
+      <ul class="mt-4 space-y-4">
+        <li class="border rounded-xl p-4">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+            <p><span class="font-semibold">B.Tech in Computer Science & Engineering</span> – Bansal Institute of Research & Technology, Bhopal, MP</p>
+            <span class="subtle">2022 – 2026 · CGPA: 7.27</span>
+          </div>
+        </li>
+        <li class="border rounded-xl p-4">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+            <p><span class="font-semibold">Class XII (Science)</span> – Govt. Boys HSS, Amanganj, MP</p>
+            <span class="subtle">2021 – 2022 · 78%</span>
+          </div>
+        </li>
+        <li class="border rounded-xl p-4">
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+            <p><span class="font-semibold">Class X</span> – Saraswati HSS, Amanganj, MP</p>
+            <span class="subtle">2019 – 2020 · 86.5%</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Certifications / Achievements / Interests -->
+  <section id="certifications" class="section py-6">
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="card p-6 sm:p-8">
+        <h2 class="heading">Certifications</h2>
+        <ul class="mt-4 list-disc ms-5 space-y-2 text-zinc-700 dark:text-zinc-300">
+          <li>Data Structures and Algorithms (10/2023)</li>
+          <li>Intermediate SQL (09/2024)</li>
+          <li>Programming in Java (10/2024)</li>
+          <li>Programming in C++ (07/2024)</li>
+          <li>Programming in Python (03/2025)</li>
+        </ul>
+      </div>
+      <div class="card p-6 sm:p-8">
+        <h2 class="heading">Achievements</h2>
+        <ul class="mt-4 list-disc ms-5 space-y-2 text-zinc-700 dark:text-zinc-300">
+          <li>Solved 100+ problems on LeetCode with strong global ranking.</li>
+          <li>Participated in Smart India Hackathon 2024.</li>
+        </ul>
+      </div>
+      <div class="card p-6 sm:p-8">
+        <h2 class="heading">Interests</h2>
+        <ul class="mt-4 list-disc ms-5 space-y-2 text-zinc-700 dark:text-zinc-300">
+          <li>Object-Oriented Programming</li>
+          <li>DBMS / RDBMS</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section py-10">
+    <div class="card p-6 sm:p-8">
+      <h2 class="heading">Contact</h2>
+      <p class="mt-3 text-zinc-700 dark:text-zinc-300">Open to internships and full-time roles. Feel free to reach out.</p>
+      <p class="mt-3 font-medium">📧 0173cs221135@gmail.com | 📞 +91 9770662713</p>
+      <div class="mt-4 flex flex-wrap gap-3">
+        <a class="btn" href="mailto:0173cs221135@gmail.com">Email Me</a>
+        <a class="btn" href="https://www.linkedin.com/in/sohit-yadav-08981428b" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/sohitydv/sohit" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://github.com/Sahil-113/House-Price-Prediction" target="_blank" rel="noopener">Project Repo</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="section py-8 text-center subtle">
+    <p>© <span id="year"></span> Sohit Yadav • Built with ❤️</p>
+  </footer>
+
+  <!-- Your JS -->
+  <script src="script.js"></script>
+</body>
+</html>
